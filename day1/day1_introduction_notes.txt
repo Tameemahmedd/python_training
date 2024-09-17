@@ -1,0 +1,12 @@
+Accumulator.
+
+absolute function is used to remove negative sign
+
+x and y or z:
+    do-a
+else: 
+    do-b
+
+2**3**2 =512    
+
+or has higher precendence than and
