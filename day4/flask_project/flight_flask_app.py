@@ -9,7 +9,7 @@ Flight_operations.create_table_flights()
 class Flight_app:
 
     @app.route('/flights',methods=['POST'])
-    def notes_create():
+    def flights_create():
         body = request.get_json()
         new_flight = Flight(body['airline'], body['source'], body['destination'], body['duration'],body['fare'])
         id = Flight_operations.createFlight(new_flight)
